@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% block content %}
+
+<h2 class="text-center mb-4">Student Records</h2>
+
+<table class="table table-dark table-striped table-hover text-center">
+    <thead>
+        <tr>
+            <th>Roll</th>
+            <th>Name</th>
+            <th>Maths</th>
+            <th>Science</th>
+            <th>English</th>
+            <th>Percentage</th>
+            <th>Grade</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for student in students %}
+        <tr>
+            <td>{{ student[0] }}</td>
+            <td>{{ student[1] }}</td>
+            <td>{{ student[2] }}</td>
+            <td>{{ student[3] }}</td>
+            <td>{{ student[4] }}</td>
+            <td>{{ student[6] }}%</td>
+            <td>{{ student[7] }}</td>
+            <td>
+                <a href="/delete/{{ student[0] }}" class="btn btn-danger btn-sm">Delete</a>
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+{% endblock %}

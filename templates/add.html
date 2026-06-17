@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block content %}
+
+<h2 class="text-center mb-4">Add New Student</h2>
+
+<div class="form-box mx-auto">
+<form method="POST">
+    <input type="text" name="roll" class="form-control mb-3" placeholder="Roll Number" required>
+    <input type="text" name="name" class="form-control mb-3" placeholder="Student Name" required>
+    <input type="number" name="maths" class="form-control mb-3" placeholder="Maths Marks" required>
+    <input type="number" name="science" class="form-control mb-3" placeholder="Science Marks" required>
+    <input type="number" name="english" class="form-control mb-3" placeholder="English Marks" required>
+    <button type="submit" class="btn btn-success w-100">Add Student</button>
+</form>
+</div>
+
+{% endblock %}

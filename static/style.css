@@ -1,0 +1,30 @@
+body {
+    background: linear-gradient(135deg, #1d2b64, #f8cdda);
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    font-weight: 600;
+}
+
+.form-box {
+    width: 400px;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.table {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.btn {
+    transition: 0.3s;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
