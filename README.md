@@ -73,8 +73,8 @@ Through this project I gained practical experience in:
 ---
 
 ### 👨‍💻 Author
-**Kaveri Dubey**
-**Python Developer** 
+- **Kaveri Dubey**
+- **Python Developer** 
 ---
-## ⭐ Support
-If you found this project useful, please consider giving it a star on GitHub.
+### ⭐ Support
+- If you found this project useful, please consider giving it a star on GitHub.
